@@ -112,7 +112,7 @@ class App extends Component {
     });
     const id = uuidv4();
     const visibility = this.visibilityRef.current.value;
-    fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/benkaiser/pages-pastebin", {
+    fetch("https://publicactiontrigger.azurewebsites.net/api/dispatches/vfxaudio/pages-pastebin", {
       method: 'POST',
       mode: 'cors',
       body: JSON.stringify({ event_type: 'Create Paste', client_payload: { data: JSON.stringify({
